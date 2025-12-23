@@ -1,5 +1,5 @@
 constellations = {
-    "Órion": [
+    "🌌 Órion": [
         "aaguiar-",
         "icaldas-",
         "kade-lim",
@@ -7,7 +7,7 @@ constellations = {
         "pdo-sant",
         "vzani-st"
     ],
-    "Interestelar": [
+    "🚀 Interestelar": [
         "agomes-f",
         "agomes-n",
         "gaferrei",
@@ -15,7 +15,7 @@ constellations = {
         "mada-cos",
         "wesperei"
     ],
-    "Space Cadets": [
+    "🛰️ Space Cadets": [
         "almontei",
         "bernda-s",
         "csilva-d",
@@ -23,7 +23,7 @@ constellations = {
         "jorocha-",
         "naportel"
     ],
-    "Batman": [
+    "🦇 Batman": [
         "analopes",
         "daniviei",
         "gabrieol",
@@ -31,14 +31,14 @@ constellations = {
         "pdiniz-l",
         "rafasilv"
     ],
-    "Malloc": [
+    "💾 Malloc": [
         "mabarret",
         "matguima",
         "bgomes-b",
         "caualves",
         "jbrits-m"
     ],
-    "Feliz Catus": [
+    "🐱 Feliz Catus": [
         "decabral",
         "eride-ol",
         "gabrioli",
@@ -46,7 +46,7 @@ constellations = {
         "lupalhan",
         "marperei"
     ],
-    "Constelação 7": [
+    "🧭 Constelação 7": [
         "ocouto-d",
         "pfreyhof",
         "dhde-lim",
@@ -54,7 +54,7 @@ constellations = {
         "labarros",
         "jonda-si"
     ],
-    "Eclipse": [
+    "🌒 Eclipse": [
         "dvitorin",
         "gabrgonc",
         "jneris-d",
@@ -63,7 +63,7 @@ constellations = {
         "ramrodri",
         "isabde-s"
     ],
-    "Sexteto Sinistro": [
+    "😈 Sexteto Sinistro": [
         "eharumi-",
         "felalves",
         "glasilva",
@@ -71,7 +71,7 @@ constellations = {
         "luccribe",
         "thasampa"
     ],
-    "Warriors": [
+    "⚔️ Warriors": [
         "glopes-a",
         "gmarinho",
         "gquaresm",
@@ -79,7 +79,7 @@ constellations = {
         "vguerra-",
         "yuguerra"
     ],
-    "ConstelaSamba": [
+    " 🎶 ConstelaSamba": [
         "gustada-",
         "jnantes-",
         "kbentes-",
