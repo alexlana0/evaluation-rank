@@ -1,6 +1,7 @@
 import requests
 from dotenv import load_dotenv
 from datetime import datetime, timezone
+from constellations import constellations
 import os
 
 load_dotenv()
@@ -11,28 +12,16 @@ token = os.getenv('access_token')
 header = {
     "Authorization": f'Bearer {token}'
 }
+campus_id_rj = '28'
 
-#1. Choose the campus by city
-city = input('Insira a cidade do campus:')
+#1. Insert you 42 user/login
+login_intra = input('Insira seu user/login da intra:')
 
-#2. Get the campus ID
-campus_endpoint = '/v2/campus'
-filter_campus = {
-    "filter[city]": city
-}
-campus_response = requests.get(url + campus_endpoint, headers=header, params=filter_campus)
-if campus_response.status_code != 200:
-    print('Desculpe, não encontrei o campus.')
-    exit()
-campus_data = campus_response.json()
-campus_id = campus_data[0]['id']
-
-#3. Get locations of the given campus
-locations_endpoint = f'/v2/campus/{campus_id}/locations'
+#2. Get locations of the given campus
+locations_endpoint = f'/v2/campus/{campus_id_rj}/locations'
 locations_response = requests.get(url + locations_endpoint, headers=header)
 locations_data = locations_response.json()
 
-#4. 
 for cadete in locations_data:
     user = cadete['user']['login']
     login_time = datetime.fromisoformat(cadete['begin_at'].replace('Z', '+00:00'))
