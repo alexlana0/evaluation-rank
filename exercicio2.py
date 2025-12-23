@@ -24,7 +24,7 @@ locations_endpoint = f'/v2/campus/28/locations'
 locations_response = requests.get(url + locations_endpoint, headers=header)
 locations_data = locations_response.json()
 
-#3. Inversing the constellation dict for a faster reserch
+#3. Inverting the constellation dictionary for faster search
 constellations_by_login = {}
 
 for constellation, members in constellations.items():
@@ -38,7 +38,7 @@ print('=' * 65)
 print('👀 Cadetes online agora no campus:')
 print()
 
-#4. Searching for cadets of the user constellation
+#4. Searching for cadets in user constellation
 members_online = 0
 for cadete in locations_data:
     login = cadete['user']['login']
