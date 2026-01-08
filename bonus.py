@@ -76,7 +76,7 @@ payload = {
             "fields": [
                 {
                     "name": "Constelação",
-                    "value": f"🌌 **{user_constellation}**",
+                    "value": f"**{user_constellation}**",
                     "inline": True
                 },
                 {
