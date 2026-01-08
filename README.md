@@ -57,5 +57,7 @@ O objetivo inicial era criar um ranking dos cinco alunos que mais realizaram ava
   - Métodos HTTP
   - Passagem de parâmetros de filtragem
 - Mudança de escopo conforme necessidade
-  - o projeto evoluiu conforme novas ideias e limitações técnicas apareceram
-
+  - O projeto evoluiu conforme novas ideias e limitações técnicas apareceram
+- Integração com Discord (Bot)
+  - Como criar uma aplicação no discord
+  - Integração do código com Webhook / API do Discord
