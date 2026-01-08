@@ -37,6 +37,10 @@ Este projeto utiliza a API pública da 42 para rastrear em tempo real quais memb
 #### Linux
 `python3 exercicio2.py`
 
+## Bônus
+`bonus.py` é uma atualização do script para enviar os dados formatados no discord via webhook.
+<img width="511" height="447" alt="image" src="https://github.com/user-attachments/assets/d94cd48e-e4be-4c12-962e-d506bc63d885" />
+
 ## Notebook de estudo
 Além dos scripts principais, este repositório inclui um arquivo .ipynb, que funciona como um laboratório pessoal de testes e exploração. É importante notar que este arquivo **não possui caráter de documentação oficial**, servindo apenas como um registo dos meus primeiros testes com a API da 42 e das fases iniciais de desenvolvimento. Nele é possível notar como o projeto evoluiu à medida que aprofundei o meu entendimento sobre os métodos de manipulação de dados em Python e as funcionalidades da API, adaptando a lógica para o que fazia mais sentido no contexto da comunidade.
 
